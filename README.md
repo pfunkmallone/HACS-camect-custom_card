@@ -1,5 +1,6 @@
 # camect-home-assistant-custom_card
 A custom card for Home Assistant for Camect
+**MUST** be used with the Camect custom_component
 
 ## Configure
 - If you are using lovelace, put following into $ha_config_dir/ui-lovelace.yaml
