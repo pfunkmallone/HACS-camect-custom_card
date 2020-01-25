@@ -2,21 +2,10 @@
 A custom card for Home Assistant for Camect
 **MUST** be used with the Camect custom_component
 
+Once installed, be sure to activate it in Lovelace.
 ## Configure
-- If you are using lovelace, put following into $ha_config_dir/ui-lovelace.yaml
+In Lovelace, create a "manual" card, and enter the following YAML:
 ```yaml
-resources:
-  - url: /local/camect-card.js
-    type: module
-
-views:
-  - title: Camect
-    cards:
-      - type: "custom:camect-card"
-        entity: camera.camect_YOUR_CAMERA_ID
-```
-  If you don't have ui-lovelace.yaml yet, add the following into $ha_config_dir/configuration.yaml
-```yaml
-lovelace:
-   mode: yaml
+type: "custom:camect-card"
+entity: camera.camect_YOUR_CAMERA_ID
 ```
