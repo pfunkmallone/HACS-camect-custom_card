@@ -12,7 +12,7 @@ resources:
     type: module
 ```
 
-create a "manual" card, and enter the following YAML:
+- Create a "manual" card, and enter the following YAML:
 ```yaml
 type: "custom:camect-card"
 entity: camera.camect_YOUR_CAMERA_ID
