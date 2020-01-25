@@ -1,4 +1,4 @@
-# camect-home-assistant-custom_card
+# HACS-camect-custom_card
 A custom card for Home Assistant for Camect
 **MUST** be used with the Camect custom_component
 
