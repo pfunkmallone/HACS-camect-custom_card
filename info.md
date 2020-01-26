@@ -1,6 +1,7 @@
 # HACS-camect-custom_card
-A custom card for Home Assistant for Camect
-**MUST** be used with the Camect custom_component
+A custom card which exposes the Camect video streams via the Home Assistant Lovelace interface.
+
+To use this card, you **MUST** have already installed the Camect custom_component available [HERE](https://github.com/pfunkmallone/HACS-camect-integration)
 
 Once installed, be sure to activate it in Lovelace.
 ## Configure
