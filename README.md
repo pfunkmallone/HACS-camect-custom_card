@@ -16,7 +16,7 @@ A custom card which exposes the Camect video streams via the Home Assistant Love
 -- Add this to the ui-lovelace.yaml file:
 ```yaml
 resources:
-  - url: /community_plugin/camect-home-assistant-custom_card/camect_card.js
+  - url: /hacsfiles/camect-home-assistant-custom_card/camect_card.js
     type: module
 ```
 - Create a "manual" card in Lovelace, and enter the following YAML:
