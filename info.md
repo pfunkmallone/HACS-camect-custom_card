@@ -8,7 +8,7 @@ Once this custom card is installed, be sure to activate it in Lovelace.
 - Add this to the ui-lovelace.yaml file:
 ```yaml
 resources:
-  - url: /community_plugin/camect-home-assistant-custom_card/camect_card.js
+  - url: /hacsfiles/camect-home-assistant-custom_card/camect_card.js
     type: module
 ```
 
