@@ -2,4 +2,5 @@
 {
   "name": "Camect Camera Card",
   "filename": "camect_card.js"
+  "homeassistant": "0.107.0"
 }
