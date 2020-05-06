@@ -5,13 +5,7 @@ To use this card, you **MUST** have already installed the Camect custom_componen
 
 Once this custom card is installed, be sure to activate it in Lovelace.
 ## Configure
-- Add this to the ui-lovelace.yaml file:
-```yaml
-resources:
-  - url: /community_plugin/camect-home-assistant-custom_card/camect_card.js
-    type: module
-```
-
+Goto your entities, and find the entity that you want to show video from. Example: camera.camect_c2c9afadd3asdf304ae16f6
 - Create a "manual" card, and enter the following YAML:
 ```yaml
 type: "custom:camect-card"
