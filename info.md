@@ -1,7 +1,12 @@
 # HACS-camect-custom_card
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs) 
+[![HACS-camect-custom_card](https://img.shields.io/github/v/release/pfunkmallone/HACS-camect-custom_card.svg?1)](https://github.com/pfunkmallone/HACS-camect-custom_card) ![Maintenance](https://img.shields.io/maintenance/yes/2020.svg)
+
 A custom card which exposes the Camect video streams via the Home Assistant Lovelace interface.
 
 To use this card, you **MUST** have already installed the Camect custom_component. It is available as a HACS repo [HERE](https://github.com/pfunkmallone/HACS-camect-integration).
+
+<img src="https://github.com/pfunkmallone/HACS-camect-custom_card/blob/master/images/doorbell.png">
 
 Once this custom card is installed, **be sure to activate it in Lovelace.**
 ## Configure
