@@ -3,7 +3,7 @@ A custom card which exposes the Camect video streams via the Home Assistant Love
 
 To use this card, you **MUST** have already installed the Camect custom_component. It is available as a HACS repo [HERE](https://github.com/pfunkmallone/HACS-camect-integration).
 
-Once this custom card is installed, be sure to activate it in Lovelace.
+Once this custom card is installed, **be sure to activate it in Lovelace.**
 ## Configure
 Goto your entities, and find the entity that you want to show video from. Example: camera.camect_c2c9afadd3asdf304ae16f6
 - Create a "manual" card, and enter the following YAML:
