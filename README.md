@@ -6,6 +6,8 @@ A custom card which exposes the Camect video streams via the Home Assistant Love
 
 <img src="https://github.com/pfunkmallone/HACS-camect-custom_card/blob/master/images/doorbell.png">
 
+# NOTICE
+I'll be shutting down this project by June 2024. Another user, [Fr3d](https://github.com/Fr3d) has created a [better integration](https://github.com/Fr3d/camect-ha) which I've been using for several months. Please use his solution.
 
 **I did NOT create this custom card**. I simply created *this* repo to simplify the installation of the custom card via [Home Assistant Community Store (aka HACS)](https://hacs.xyz/). The original proof-of-concept custom card (written by one of the Camect developers) is located [HERE](https://github.com/camect/home-assistant-integration). The Camect developers don't use Home Assistant so they can't prioritize improvements on the integration or custom card. Ideally, they hope that users in the Home Assistant community will take on the responsibility to improve it and keep it up-to-date with Home Assistant. **I am not a developer**, so I'm incapable of doing so.
 
